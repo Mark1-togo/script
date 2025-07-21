@@ -25,3 +25,6 @@ let pos = sentence.indexOf("likes", 3);
 console.log(pos);
 const str = "I am learning JavaScript.";
 console.log(str.indexOf("Javascript"));
+
+//prompt() Takes two arguments:message on the dialogue box , default value
+let userName = prompt("What is your name?", "Tony");
