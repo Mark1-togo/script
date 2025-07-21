@@ -9,7 +9,7 @@ let poem =
   "She sell sea shell at the sea shore, \n also the brown quick fox jumped over the fence";
 console.log(poem);
 
-//scaping innerquotes using backslash - can be used to write spacial characters such as the opening quotes
+//scaping inner quotes using backslash - can be used to write spacial characters such as the opening quotes
 let word = 'Hello, Im doing, "javascript"';
 console.log(word);
 
