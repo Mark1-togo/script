@@ -13,3 +13,22 @@ const crypticKey1= Symbol("saltNpepper");
 const crypticKey2= Symbol("saltNpepper");
 console.log(crypticKey1 === crypticKey2); // false
 Creating new line in a string (Scape sequence): \n
+
+/_ booleans and numbers
+\| BODMAS Element | JavaScript Equivalent | Example | Result |
+| ------------------ | --------------------- | ------------- | ------ |
+| **B**rackets | `()` Parentheses | `2 _ (3 + 4)`|`14` |
+| **O**rders | Exponents (`**`) | `2 ** 3`|`8`|
+| **D**ivision |`/`|`8 / 4`|`2`|
+| **M**ultiplication |`_`|`3 _ 4`|`12`|
+| **A**ddition |`+`|`5 + 6`|`11`|
+| **S**urtication |`-`|`10 - 3`|`7` |
+\*/
+
+Remainder assignment operator (%=), which divides a variable by the specified number and assigns the remainder to the variable.
+
+Exponent assignment operator (\*\*=), which raises a variable to the power of the specified number and reassigns the result to the variable.
+
+Bitwise AND assignment operator (&=), which performs a bitwise AND operation with the specified number and reassigns the result to the variable.
+
+Bitwise OR assignment operator (|=), which performs a bitwise OR operation with the specified number and reassigns the result to the variable.
