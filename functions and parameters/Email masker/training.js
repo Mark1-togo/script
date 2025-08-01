@@ -45,7 +45,13 @@ console.log(emailMasker("macoduor1@gmail.com"));
 let stringExample = "Trying the slice method";
 console.log(stringExample.slice(0, 10));
 function passwordHider(password) {
+  let outPut = password.length;
+  if (outPut <= 4) {
+    console.log("Weak password");
+  } else {
+    console.log("Strong password");
+  }
   return "*".repeat(password.length);
 }
 
-console.log(passwordHider("pass"));
+console.log(passwordHider("Tonytony1"));
