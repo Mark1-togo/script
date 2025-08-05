@@ -5,8 +5,8 @@ function booWho(argument) {
     return false;
   }
 }
-
-booWho(true);
+//console.log to view returns
+console.log(booWho(true));
 booWho(false);
 booWho([1, 2, 3]);
 booWho([].slice);
