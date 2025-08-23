@@ -7,7 +7,7 @@ function booWho(argument) {
 }
 //console.log to view returns
 console.log(booWho(true));
-booWho(false);
+console.log(booWho(false));
 booWho([1, 2, 3]);
 booWho([].slice);
 booWho({ a: 1 });
